@@ -1,53 +1,19 @@
-/* String
-const what = "Jin";
+const title = document.querySelector("#title");
 
-console.log(what);
-*/
+const BASE_COLOR = "rgb(52, 73, 94)";
+const OTHER_COLOR = "#bdc3c7";
 
-/*Boolean
-const wat = true;
-*/
-
-/*Number
-const wat =530;
-*/
-
-/* Float
-const wat = 55.1;
-*/
-
-/*
-function sayHello(name, number) {
-  console.log("Excuse me", name, "you have last", 1, "chance.");
+function handleClick() {
+  const cureentColor = title.style.color;
+  if (cureentColor === BASE_COLOR) {
+    title.style.color = OTHER_COLOR;
+  } else {
+    title.style.color = BASE_COLOR;
+  }
 }
 
-sayHello("Sir", 15);
-console.log("Okay");
-*/
-
-/*
-function sayHello(name, age) {
-  console.log(`Hello ${name} you are ${age} years old`);
+function init() {
+  title.style.color = BASE_COLOR;
 }
-
-sayHello("Jin", 15);
-*/
-
-const calulator = {
-  plus: function (a, b) {
-    return a ** b;
-  },
-};
-
-// console.log(greetJin);
-const plus = calulator.plus(6, 5);
-console.log(plus);
-const calulator1 = {
-  minus: function (a, b) {
-    return a - b;
-  },
-};
-
-// console.log(greetJin);
-const minus = calulator1.minus(10, 9);
-console.log(minus);
+title.addEventListener("click", handleClick);
+init();
