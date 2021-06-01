@@ -1,5 +1,5 @@
 body {
-  background-color: #222f3e;
+  background-color: #2f3542;
 }
 
 .btn {
@@ -32,6 +32,7 @@ body {
 }
 fix fadeIn*/
 .bgImges {
+  opacity: 0.4;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,4 +40,24 @@ fix fadeIn*/
   height: 100%;
   z-index: -1;
   /*animation: fadeIn 0.5s linear;  fix fadeIn*/
+}
+
+.js-clock {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 250px;
+  font-size: 50px;
+}
+.js-clock h6 {
+  margin-bottom: -80px;
+  position: absolute;
+}
+
+.js-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 }
