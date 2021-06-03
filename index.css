@@ -1,13 +1,9 @@
 body {
-  background-color: #2f3542;
+  background-color: rgb(51, 51, 51);
 }
 
 .btn {
   cursor: pointer;
-}
-
-body {
-  color: #34495e;
 }
 
 .clicked {
@@ -41,23 +37,83 @@ fix fadeIn*/
   z-index: -1;
   /*animation: fadeIn 0.5s linear;  fix fadeIn*/
 }
-
+/*1*/
 .js-clock {
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 250px;
+  padding-top: 170px;
   font-size: 50px;
 }
 .js-clock h6 {
+  padding-top: 15px;
   margin-bottom: -80px;
   position: absolute;
+  border-top: solid 1px;
+}
+.js-form {
+  text-align: center;
 }
 
-.js-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 3rem;
+.js-form ::placeholder {
+  color: white;
 }
+
+.js-form input {
+  height: 30px;
+  text-align: center;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.js-greetings {
+  margin-top: -8px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+/*2*/
+
+.js-toDoForm {
+  text-align: center;
+}
+
+.js-toDoForm ::placeholder {
+  color: white;
+  font-size: 15px;
+}
+.js-toDoForm input {
+  height: 15px;
+  width: 170px;
+  text-align: center;
+  outline: none;
+  border-top: none;
+  border-left: solid 3px white;
+  border-right: solid 3px white;
+  border-bottom: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.js-toDoList {
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+.js-toDoList button {
+  margin-left: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.js-toDoList li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+/*3 do weather */
