@@ -87,6 +87,7 @@ fix fadeIn*/
   color: white;
   font-size: 15px;
 }
+
 .js-toDoForm input {
   height: 15px;
   width: 170px;
@@ -102,7 +103,7 @@ fix fadeIn*/
 .js-toDoList {
   align-items: center;
   text-align: center;
-  color: aliceblue;
+  color: white;
 }
 
 .js-toDoList button {
@@ -117,3 +118,13 @@ fix fadeIn*/
   margin-left: 5px;
 }
 /*3 do weather */
+
+.js-weather {
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
