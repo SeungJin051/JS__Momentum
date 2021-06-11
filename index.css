@@ -18,15 +18,6 @@ body {
   display: block;
 }
 
-/*@keyframes fadeIn {
-  form {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-fix fadeIn*/
 .bgImges {
   opacity: 0.4;
   position: absolute;
@@ -35,7 +26,6 @@ fix fadeIn*/
   width: 100%;
   height: 100%;
   z-index: -1;
-  /*animation: fadeIn 0.5s linear;  fix fadeIn*/
 }
 /*1*/
 .js-clock {
